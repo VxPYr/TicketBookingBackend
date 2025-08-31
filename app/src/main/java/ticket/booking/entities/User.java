@@ -38,8 +38,14 @@ public class User {
         return ticketsBooked;
     }
 
-    public void setTicketsBooked(List<Ticket> ticketsBooked) {
-        this.ticketsBooked = ticketsBooked;
+//    public void setTicketsBooked(List<Ticket> ticketsBooked) {
+//        this.ticketsBooked = ticketsBooked;
+//    }
+
+    public void printTickets(){
+        for (int i = 0; i<ticketsBooked.size(); i++){
+            System.out.println(ticketsBooked.get(i).getTicketInfo());
+        }
     }
 
     public String getUserId() {

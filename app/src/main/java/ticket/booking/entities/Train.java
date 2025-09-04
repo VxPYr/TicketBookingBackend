@@ -11,7 +11,18 @@ public class Train {
     private String trainName;
     private Date departureTime;
     private Date arrivalTime;
-    private List<List<Boolean>> seats;
-    private Map<String, Time> stationTimes;
+    private List<List<Integer>> seats;
+    private Map<String, String> stationTimes;
     private List<String> stations;
+
+    public Train(String trainId, String trainNumber, String trainName, Date departureTime, Date arrivalTime, List<List<Integer>> seats, Map<String, String> stationTimes, List<String> stations) {
+        this.trainId = trainId;
+        this.trainNumber = trainNumber;
+        this.trainName = trainName;
+        this.departureTime = departureTime;
+        this.arrivalTime = arrivalTime;
+        this.seats = seats;
+        this.stationTimes = stationTimes;
+        this.stations = stations;
+    }
 }

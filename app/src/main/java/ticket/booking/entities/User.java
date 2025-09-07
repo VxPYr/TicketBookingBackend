@@ -10,6 +10,16 @@ public class User {
     private List<Ticket> ticketsBooked;
     private String userId;
 
+    public User(){}
+
+    public User(String username, String password, String hashPassword, List<Ticket> ticketsBooked, String userId) {
+        this.username = username;
+        this.password = password;
+        this.hashPassword = hashPassword;
+        this.ticketsBooked = ticketsBooked;
+        this.userId = userId;
+    }
+
     public String getUsername() {
         return username;
     }

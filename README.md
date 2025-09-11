@@ -1,4 +1,4 @@
-﻿# TicketBookingBackend
+﻿# Ticket Booking Backend
 
 Creating a train ticket booking backend that deals 
 with creation and authentication of users. Additionally also providing 
@@ -9,6 +9,7 @@ i. User is able to sign-up and login.
 ii. Fetch and search for all trains from one location to another location.  
 iii. Show available seats and provide functionality to book seats.  
 iv. Fetch tickets after successful booking.  
+
 
 
 
